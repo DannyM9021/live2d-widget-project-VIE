@@ -4,25 +4,25 @@
 		"text" : ["text1"]
 	}, {
 		"selector": "#waifu-tool-hitokoto",
-		"text": ["text2"]
+		"text": ["?"]
 	}, {
 		"selector": "#waifu-tool-asteroids",
-		"text": ["text3"]
+		"text": ["Minigame!"]
 	}, {
 		"selector": "#waifu-tool-switch-model",
-		"text": ["text4"]
+		"text": ["Change to next model (will remove)"]
 	}, {
 		"selector": "#waifu-tool-switch-texture",
-		"text": ["text5"]
+		"text": ["Change Clothes"]
 	}, {
 		"selector": "#waifu-tool-photo",
-		"text": ["6"]
+		"text": ["Don't Know What's it For"]
 	}, {
 		"selector": "#waifu-tool-info",
-		"text": ["7"]
+		"text": ["Check out the original repository!"]
 	}, {
 		"selector": "#waifu-tool-quit",
-		"text": ["8"]
+		"text": ["Close AI Assistant"]
 	}, {
 		"selector": ".menu-item-home a",
 		"text": ["9"]
@@ -249,7 +249,7 @@
 	"message": {
 		"default": ["100", "101", "102", "103", "134"],
 		"console": "123",
-		"copy": "2111",
-		"visibilitychange": "哇，你终于回来了～"
+		"copy": "Text has been copied!",
+		"visibilitychange": "Waiting for input..."
 	}
 }
