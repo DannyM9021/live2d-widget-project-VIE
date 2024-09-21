@@ -43,7 +43,7 @@ function loadWidget(config) {
                 }
             }
         }
-        const text = `Hello, this is VIE, your AI Assistant! I am ready to help >w<!<span>「${document.title.split(" - ")[0]}」</span>`;
+        const text = "Hello, this is VIE, your AI Assistant (>_<)!!!<span>"//「${document.title.split(" - ")[0]}」</span>`;
         let from;
         if (document.referrer !== "") {
             const referrer = new URL(document.referrer),

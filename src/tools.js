@@ -50,7 +50,7 @@ const tools = {
     "photo": {
         icon: fa_camera_retro,
         callback: () => {
-            showMessage("照好了嘛，是不是很可爱呢？", 6000, 9);
+            showMessage("Really cool photo!", 6000, 9);
             Live2D.captureName = "photo.png";
             Live2D.captureFrame = true;
         }
@@ -65,7 +65,7 @@ const tools = {
         icon: fa_xmark,
         callback: () => {
             localStorage.setItem("waifu-display", Date.now());
-            showMessage("愿你有一天能与重要的人重逢。", 2000, 11);
+            showMessage("Bye Bye!", 2000, 11);
             document.getElementById("waifu").style.bottom = "-500px";
             setTimeout(() => {
                 document.getElementById("waifu").style.display = "none";
