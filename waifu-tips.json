@@ -247,8 +247,14 @@
 		"text": "你是夜猫子呀？这么晚还不睡觉，明天起的来嘛？"
 	}],
 	"message": {
-		"default": ["100", "101", "102", "103", "134"],
-		"console": "123",
+		"default": [
+		"What would you like to do?", 
+		"Go watch some anime!", 
+		"Go read a manga!", 
+		"Go touch some grass!!!", 
+		"What are you doing?"
+		],
+		"console": "Why are you checking the console?",
 		"copy": "Text has been copied!",
 		"visibilitychange": "Waiting for input..."
 	}
