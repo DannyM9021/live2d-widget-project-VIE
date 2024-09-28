@@ -21,9 +21,11 @@ class Model {
     async loadModelList() {
         const response = await fetch(`${this.cdnPath}model_list.json`);
         this.modelList = await response.json();
+        console.log(this.modelList)
     }
 
     async loadModel(modelId, modelTexturesId, message) {
+        console.log("HERE")
         localStorage.setItem("modelId", modelId);
         localStorage.setItem("modelTexturesId", modelTexturesId);
         showMessage(message, 4000, 10);
